@@ -1,0 +1,6 @@
+Class = basic building block
+Object = runtime instance of a class in memory
+State(state of a program) = the collection of objects at runtime
+Keyword = a word with a special meaning( e.g. class, public, static etc)
+Method = an operation that can be called(executed)
+Method Signature = full declaration of a method
