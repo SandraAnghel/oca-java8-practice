@@ -9,3 +9,6 @@ JVM = java virtual machine
             - allocate memory
             - allocate CPU
             - access files etc.
+Package = similar with a folder
+        = used by java to logically group classes
+java.lang = special package because it is automatically imported
