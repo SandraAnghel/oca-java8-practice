@@ -10,12 +10,16 @@ package com.company.chapter1;
  * BlockInitializer = name of class
  */
 public class BlocksInitializer {
-
+    // instance initializer
     {
         System.out.println("Initializer 1");
+        // System.out.println(s); - does not compile
     }
 
-    String s = "Test";
+    // String s2 = s1; - does not compile
+    String s1;
+    String s = "Test"; // instance variable
+
 
     {
         System.out.println("Initializer 2");
