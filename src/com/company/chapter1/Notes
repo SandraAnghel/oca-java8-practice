@@ -12,3 +12,5 @@ JVM = java virtual machine
 Package = similar with a folder
         = used by java to logically group classes
 java.lang = special package because it is automatically imported
+
+Java has a default constructor if the class doesn't contain an explicit constructor defined
