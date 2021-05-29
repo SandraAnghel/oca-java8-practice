@@ -1,0 +1,9 @@
+Operator = special symbol
+         = type of operators: - unary
+                              - binary
+                              - ternary
+         = operators are usually evaluated from right to left
+
+result = operand1 operator operand2 -> binary
+operand operator -> unary
+operator operand -> unary
