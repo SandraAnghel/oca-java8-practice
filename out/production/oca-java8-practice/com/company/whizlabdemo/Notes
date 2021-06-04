@@ -53,5 +53,9 @@ Wrapper classes
  -Ternary                                    ?:
  -Assignment                                 = += -= *= /= %= &= ^= |= <<= >>= >>>=
 
+ String Constant Pool
+        - is an area in the heap memory, containing String objects
+  - strings created using string literals are returned from the string constant pool, while strings created using the new operator are returned from outside the pool
+
 
 
