@@ -13,3 +13,11 @@ Parameter Passing and Value Returning
     whereas an object in the memory, meaning that any changes made to the parameter are reflected in the argument
     - Value returning: a primitive variable is returned from a method by actual value and this variable dies after the method finishes execution; while an object reference
     is returned by the address of the referenced object in the memory and the original object may survive the method completion if it is assigned to a variable outside the method
+
+Read and Write to an object
+    - Inside the Object
+            - Statements within an object may access and modify a field of the object using the this keyword(current instance)(getter and setter)
+    - Outside the Object
+            - A non-private object field can be accessed and modified from outside using an object reference, followed by the dot (.) operator, fallowed by the simple field name
+
+
