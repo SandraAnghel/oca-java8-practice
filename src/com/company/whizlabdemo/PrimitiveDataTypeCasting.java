@@ -29,6 +29,8 @@ public class PrimitiveDataTypeCasting {
     }
 
     static int classVar;
+    static String classVar2;
+
 
     public static void main(String[] args) {
         int localVar1;
@@ -38,5 +40,9 @@ public class PrimitiveDataTypeCasting {
         int secondVar = (int)firstVar;  // explicit casting(narrowing)
         System.out.println(classVar);   // compiler will set the default value if it is not explicitly initialized
         // System.out.println(localVar1);  -  does not compile - local variables must be explicitly initialized before using
+
+        classVar2 = "OCAJP8";
+        String localVar2 = classVar2 + " " + "Preparation";
+        System.out.println(localVar2);
     }
 }
