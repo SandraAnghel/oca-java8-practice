@@ -33,5 +33,25 @@ Wrapper classes
 
  *** NaN = not a number ***
 
+ Operators
+
+ Operators                                  Higher Precedence
+ -Postfix                                    expr++ , exp--
+ -Unary                                      ++expr, --expr, +expr -expr~!
+ -Multiplicative                             * / %
+ -Additive                                   + -
+ -Shift                                      <<>> >>>
+ -Relational                                 < > <= >= instanceof
+ -Equality                                   == !=(not equal)
+
+ Operators                                  Lower Precedence
+ -Bitwise AND                                &
+ -Bitwise exclusive OR                       ^
+ -Bitwise inclusive OR                       |
+ -Logical AND                                &&
+ -Logical OR                                 ||
+ -Ternary                                    ?:
+ -Assignment                                 = += -= *= /= %= &= ^= |= <<= >>= >>>=
+
 
 
