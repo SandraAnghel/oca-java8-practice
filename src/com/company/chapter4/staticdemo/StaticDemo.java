@@ -1,4 +1,5 @@
 package com.company.chapter4.staticdemo;
+import static java.lang.System.*;
 
 public class StaticDemo {
     // static StaticDemo(){}
@@ -28,6 +29,7 @@ public class StaticDemo {
        // static int i2 = 2;
         int i2 = 2;
         // getCounter();
+       out.println("A");
     }
 }
 

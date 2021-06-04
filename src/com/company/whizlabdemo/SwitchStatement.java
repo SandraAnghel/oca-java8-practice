@@ -12,6 +12,7 @@ package com.company.whizlabdemo;
 public class SwitchStatement {
     enum Gender{FEMALE, MALE, UNISEX}
     public static void main(String[] args) {
+
         Gender gender = Gender.FEMALE ;
         switch(gender) {
             case FEMALE:
