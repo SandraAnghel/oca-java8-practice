@@ -1,7 +1,6 @@
 Object Reference vs Primitive Variables
     - object reference variables store the address of objects they refer to
     - primitive variables store actual values
-    - the difference in content stored by object reference and primitive variables results in distinctions in their behaviors, including comparison, assignment, parameter passing and value returning
 
 Comparison and Assignment
     - Comparison: primitive variables are compared based on their literal values; while object reference variables are compared based on the addresses of their associated objects in the memory
