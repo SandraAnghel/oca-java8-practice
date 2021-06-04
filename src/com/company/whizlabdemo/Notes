@@ -20,6 +20,18 @@ Read and Write to an object
     - Outside the Object
             - A non-private object field can be accessed and modified from outside using an object reference, followed by the dot (.) operator, fallowed by the simple field name
 
+Wrapper classes
+- the Java platform provides wrapper classes for primitive data types(8 wrapper classes):
+   1. Boolean(boolean)
+   2. Byte(byte)
+   3. Short(short)
+   4. Integer(int)
+   5. Long(long)
+   6. Float(float)
+   7. Double(double)
+   8. Character(char)
+
+ *** NaN = not a number ***
 
 
 

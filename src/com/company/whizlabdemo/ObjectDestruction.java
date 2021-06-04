@@ -17,5 +17,5 @@ public class ObjectDestruction {
         Test1 o2 = new Test1(0);
         Test1 o3 = new Test1(0);
     }
-    
+
 }
