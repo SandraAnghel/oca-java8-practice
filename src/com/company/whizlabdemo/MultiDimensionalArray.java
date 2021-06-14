@@ -29,6 +29,6 @@ public class MultiDimensionalArray {
         int[][] numbers = {{1, 2, 3}, {4, 5}};
         int[][] numbers1 = new int[][] {{1, 2, 3}, {4, 5}};
 
-        
+
     }
 }
